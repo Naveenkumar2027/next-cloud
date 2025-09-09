@@ -1,0 +1,26 @@
+{
+  "name": "chathub-ai-assistant",
+  "version": "1.0.0",
+  "description": "ChatHub - Your Smart Communication Center with AI Assistant Cruze",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx --no-deprecation http-server . -p 3000 -o",
+    "dev": "npx --no-deprecation http-server . -p 3000 -o -c-1"
+  },
+  "keywords": [
+    "ai-assistant",
+    "chat",
+    "communication",
+    "cruze",
+    "vue",
+    "smart-app"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
